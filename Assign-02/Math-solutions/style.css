@@ -1,0 +1,38 @@
+body {
+      background: linear-gradient(135deg, #f9d423, #ff4e50);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      animation: bounce 2s infinite;
+    }
+
+    .btn {
+      font-size: 1.2rem;
+      margin: 10px;
+      transition: transform 0.3s;
+      animation: bounce 2s infinite;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+    }
+
+    .output {
+      background-color: rgba(103, 96, 96, 0.2);
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 30px;
+      font-size: 1.5rem;
+      min-height: 150px;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }

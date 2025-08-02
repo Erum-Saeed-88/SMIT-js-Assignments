@@ -1,0 +1,45 @@
+body {
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #0044cc;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      animation: floatText 2s infinite;
+    }
+
+    @keyframes floatText {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .card {
+      animation: fadeIn 1s ease-in-out;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .card-img-top {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .container-box {
+      max-width: 600px;
+    }
