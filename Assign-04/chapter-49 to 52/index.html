@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 49 till 52</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="display: block; margin: 30px">
+<!----Q1------>
+    <h3></h3>
+
+    <div class="container">
+       <h2>Signup Form</h2>
+        <form id="signupForm">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+      
+          <label for="password">Password:</label>
+          <input type="password" id="password" required>
+      
+          <button type="submit">Submit</button>
+        </form>
+    
+       <div class="output" id="output"></div>
+    </div>
+
+    <!----Q2---->
+    <h3></h3>
+
+    <div class="item">
+    <h3>Product Title</h3>
+    <p>
+      This is a short description of the product.
+      <span class="extra">Here is the full detail of the product, including features, specifications, and other information that the user can see only after clicking the button.</span>
+    </p>
+    <button class="btn" id="toggleBtn">Read more</button>
+  </div>
+
+  <!-----Q3----->
+
+  <h2>Student Registration</h2>
+
+  <!-- Main Form -->
+  <form id="studentForm">
+    <label>Name:</label>
+    <input type="text" id="name" required>
+    
+    <label>Age:</label>
+    <input type="number" id="age" required>
+    
+    <label>Class:</label>
+    <input type="text" id="class" required>
+    
+    <button type="submit">Add Student</button>
+  </form>
+
+  <!-- Edit Form (Hidden Initially) -->
+  <form id="editForm" class="hidden">
+    <h3>Edit Student</h3>
+    <label>Name:</label>
+    <input type="text" id="editName" required>
+    
+    <label>Age:</label>
+    <input type="number" id="editAge" required>
+    
+    <label>Class:</label>
+    <input type="text" id="editClass" required>
+    
+    <button type="submit">Update Student</button>
+  </form>
+
+  <!-- Student Table -->
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Class</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Student rows appear here -->
+    </tbody>
+  </table>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

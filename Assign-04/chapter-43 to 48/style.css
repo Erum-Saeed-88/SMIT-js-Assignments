@@ -1,0 +1,52 @@
+/* Q2 styling */
+
+img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+      cursor: pointer;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+}
+img:hover {
+      border-color: #007BFF;
+};
+
+
+/* Q4 STYLING */
+
+img {
+      width: 300px;
+      height: auto;
+      cursor: pointer;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+};
+
+/*Q5 STYLING */
+
+* {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+    h2{
+        margin-left: 80px;
+        font-size: 40px;
+    }
+    #counterValue {
+      font-size: 50px;
+      margin: 20px 120px;
+      display: block;
+      color: #007BFF;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: 2px solid blue;
+      border-radius: 25px;
+      background-color: skyblue;
+    };
